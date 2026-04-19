@@ -16,14 +16,12 @@ class Repository<T> {
     }
 }
 
-// Custom Exception
 class InvalidDataException extends Exception {
     public InvalidDataException(String msg) {
         super(msg);
     }
 }
 
-// Model Class (OOP)
 class Student {
     private int id;
     private String name;

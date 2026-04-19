@@ -4,7 +4,6 @@ import java.util.concurrent.*;
 import java.util.function.*;
 import java.util.stream.*;
 
-// Generic Repository
 class Repository<T> {
     private List<T> data = new ArrayList<>();
 
